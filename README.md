@@ -1,3 +1,24 @@
+Building
+========
+To build, execute: 
+<pre>make</pre>
+
+Installing
+==========
+To install, execute: 
+<pre>make install P=DEVICE_PORT IP=DEVICE_IP_ADDRESS</pre>
+
+An example would be: 
+<pre>make install P=22 IP=192.168.1.72</pre>
+
+Using
+=====
+Make sure your device is turned off. Turn it back on and immediately start holding down the volume down button to initiate safestrat.
+
+Use a USB SSH tunnel to connect to the device.
+
+Comex's Original Info
+=====================
 This isn't even my final form!  (Because it isn't all that safe; it still
 depends on the same FS everything else is using.  A proper solution would come
 with kexec stuff.)  But at least it should prevent me from doing anything too
